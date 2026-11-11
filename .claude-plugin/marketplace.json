@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "mentionbird",
+  "description": "Track AI-answer visibility for your brands. Read data; optionally add brands and prompts.",
+  "owner": {
+    "name": "MentionBird",
+    "email": "support@mentionbird.ai",
+    "url": "https://www.mentionbird.ai"
+  },
+  "plugins": [
+    {
+      "name": "mentionbird",
+      "source": "./",
+      "description": "Track AI-answer visibility for your brands. Read data; optionally add brands and prompts.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MentionBird",
+        "email": "support@mentionbird.ai",
+        "url": "https://www.mentionbird.ai"
+      },
+      "homepage": "https://www.mentionbird.ai",
+      "repository": "https://github.com/AdNabu-Team/mentionbird-mcp",
+      "license": "MIT",
+      "keywords": [
+        "aeo",
+        "ai-visibility",
+        "citations",
+        "mentions",
+        "share-of-voice"
+      ]
+    }
+  ]
+}

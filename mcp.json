@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mentionbird": {
+      "url": "https://mcp.mentionbird.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MENTIONBIRD_API_KEY}"
+      }
+    }
+  }
+}

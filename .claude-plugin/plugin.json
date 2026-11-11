@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "mentionbird",
+  "displayName": "MentionBird",
+  "version": "1.0.0",
+  "description": "Track AI-answer visibility for your brands. Read data; optionally add brands and prompts.",
+  "author": {
+    "name": "MentionBird",
+    "email": "support@mentionbird.ai",
+    "url": "https://www.mentionbird.ai"
+  },
+  "homepage": "https://www.mentionbird.ai",
+  "repository": "https://github.com/AdNabu-Team/mentionbird-mcp",
+  "license": "MIT",
+  "keywords": [
+    "aeo",
+    "ai-visibility",
+    "citations",
+    "mentions",
+    "share-of-voice"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://www.mentionbird.ai/help/en/articles/16161838-connecting-claude-codex-and-other-mcp-clients",
+  "supportUrl": "https://www.mentionbird.ai/contact",
+  "privacyPolicyUrl": "https://www.mentionbird.ai/privacy-policy",
+  "termsOfServiceUrl": "https://www.mentionbird.ai/terms-and-conditions"
+}
