@@ -1,0 +1,21 @@
+{
+  "name": "mentionbird",
+  "version": "1.0.0",
+  "description": "Track AI-answer visibility for your brands. Read data; optionally add brands and prompts.",
+  "settings": [
+    {
+      "name": "API key",
+      "description": "MentionBird API key from the MentionBird app (API & integrations → Manage access). Sent as a bearer token.",
+      "envVar": "MENTIONBIRD_API_KEY",
+      "sensitive": true
+    }
+  ],
+  "mcpServers": {
+    "mentionbird": {
+      "httpUrl": "https://mcp.mentionbird.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer $MENTIONBIRD_API_KEY"
+      }
+    }
+  }
+}

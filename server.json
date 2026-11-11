@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.mentionbird/mentionbird",
+  "title": "MentionBird",
+  "description": "Track AI-answer visibility for your brands. Read data; optionally add brands and prompts.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.mentionbird.ai/help/en/articles/16161838-connecting-claude-codex-and-other-mcp-clients",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mentionbird.ai/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. For clients that do not support OAuth (for example Cursor), send your MentionBird API key as: Bearer YOUR_API_KEY. Claude, Claude Code and Codex should sign in with your MentionBird login instead and can leave this unset.",
+          "isRequired": false,
+          "isSecret": true,
+          "placeholder": "Bearer YOUR_API_KEY"
+        }
+      ]
+    }
+  ]
+}
