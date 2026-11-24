@@ -16,6 +16,16 @@ MentionBird is an [AEO / AI visibility](https://www.mentionbird.ai) platform. It
 
 The server is for marketing, SEO, and brand teams who want that data inside the assistant they already use: which prompts they win or lose, who gets named instead, and which pages those answers cite.
 
+## Skills
+
+Installed as a plugin in Claude, Cowork or Claude Code, MentionBird also adds three skills. They work on their own, and use your MentionBird data when the MentionBird connector is connected.
+
+- **prompt-priority**: picks the prompts most worth working on, weighing search volume, difficulty, commercial intent and how much your brand is losing.
+- **ranking-advice**: a prioritized action plan for getting named in AI answers to one prompt, with a page brief where one is needed, or listicle and outreach targets across a topic.
+- **prompt-check**: reviews the prompts you track, flags weak, broken and duplicate ones, and rewrites them so AI assistants answer them by naming brands.
+
+The skills send nothing anywhere themselves. When the connector is connected, they read your workspace through the MentionBird MCP server above; otherwise they work from the prompts you give them and web search.
+
 ## Example prompts
 
 - "Which brands am I tracking?"
