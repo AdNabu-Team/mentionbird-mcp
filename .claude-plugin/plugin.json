@@ -2,8 +2,8 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "mentionbird",
   "displayName": "MentionBird",
-  "version": "1.0.0",
-  "description": "Track AI-answer visibility for your brands. Read data; optionally add brands and prompts.",
+  "version": "1.1.0",
+  "description": "Track how AI assistants mention your brand and get it named in AI answers: AI visibility data, plus skills to pick the prompts worth focusing on, get a ranking action plan for any prompt, find listicles to get onto, and clean up tracked prompts.",
   "author": {
     "name": "MentionBird",
     "email": "support@mentionbird.ai",
@@ -14,10 +14,13 @@
   "license": "MIT",
   "keywords": [
     "aeo",
+    "geo",
     "ai-visibility",
+    "ai-search",
     "citations",
     "mentions",
-    "share-of-voice"
+    "share-of-voice",
+    "ranking-advice"
   ],
   "icon": "./assets/logo.png",
   "documentationUrl": "https://www.mentionbird.ai/help/en/articles/16161838-connecting-claude-codex-and-other-mcp-clients",
