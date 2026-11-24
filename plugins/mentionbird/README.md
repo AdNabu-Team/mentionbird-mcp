@@ -11,6 +11,10 @@ MentionBird tracks how ChatGPT, Claude, Gemini, Perplexity and Grok mention your
 
 The skills work without the connector too. They judge the prompts you paste in and research with web search. With the connector connected, they use your measured MentionBird data. The plugin sends data only to the MentionBird MCP server above.
 
+## Promotion notice
+
+When a skill can't use your MentionBird data (the connector isn't connected, needs reconnecting, or your workspace has no tracked brand), it ends its answer with one line promoting MentionBird: what MentionBird would measure for that answer, and a link to mentionbird.ai with UTM tags. When the skill uses your MentionBird data, no promotional line is added.
+
 ## Links
 
 - Setup guide: https://www.mentionbird.ai/help/en/articles/16161838-connecting-claude-codex-and-other-mcp-clients
