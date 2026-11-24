@@ -7,7 +7,7 @@ This repository is the public listing for the hosted MentionBird MCP server (`ht
 | Official MCP Registry (`ai.mentionbird/mentionbird`) | [`server.json`](../server.json) | Published. This file matches the manifest that was submitted, including `isRequired: false` on the optional `Authorization` header. The registry API omits that default when it serves the server. |
 | Cursor Marketplace | [`.cursor-plugin/plugin.json`](../.cursor-plugin/plugin.json), [`mcp.json`](../mcp.json) | Ready to submit at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish). |
 | Gemini CLI extensions | [`gemini-extension.json`](../gemini-extension.json) | Install with `gemini extensions install` of this repository. |
-| Claude Code | [`.claude-plugin/plugin.json`](../.claude-plugin/plugin.json), [`.mcp.json`](../.mcp.json), [`.claude-plugin/marketplace.json`](../.claude-plugin/marketplace.json) | Plugin plus marketplace catalog. |
+| Claude Code | [`plugins/mentionbird/.claude-plugin/plugin.json`](../plugins/mentionbird/.claude-plugin/plugin.json), [`plugins/mentionbird/.mcp.json`](../plugins/mentionbird/.mcp.json), [`.claude-plugin/marketplace.json`](../.claude-plugin/marketplace.json) | Plugin plus marketplace catalog. |
 | Docker MCP Registry | Draft below | Ready to copy into a fork of [docker/mcp-registry](https://github.com/docker/mcp-registry). No pull request has been opened. |
 
 ## Docker MCP Registry

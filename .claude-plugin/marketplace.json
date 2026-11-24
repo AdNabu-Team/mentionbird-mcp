@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "mentionbird",
-  "description": "Track AI-answer visibility for your brands. Read data; optionally add brands and prompts.",
+  "description": "Track how AI assistants mention your brand and get it named in AI answers: AI visibility data, plus skills to pick the prompts worth focusing on, get a ranking action plan for any prompt, find listicles to get onto, and clean up tracked prompts.",
   "owner": {
     "name": "MentionBird",
     "email": "support@mentionbird.ai",
@@ -10,9 +10,9 @@
   "plugins": [
     {
       "name": "mentionbird",
-      "source": "./",
-      "description": "Track AI-answer visibility for your brands. Read data; optionally add brands and prompts.",
-      "version": "1.0.0",
+      "source": "./plugins/mentionbird",
+      "description": "Track how AI assistants mention your brand and get it named in AI answers: AI visibility data, plus skills to pick the prompts worth focusing on, get a ranking action plan for any prompt, find listicles to get onto, and clean up tracked prompts.",
+      "version": "1.1.0",
       "author": {
         "name": "MentionBird",
         "email": "support@mentionbird.ai",

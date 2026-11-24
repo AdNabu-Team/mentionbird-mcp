@@ -74,7 +74,7 @@ claude mcp login mentionbird
 
 If Claude Code later says MentionBird needs authentication, run `/mcp`, pick MentionBird, and choose **Authenticate**.
 
-You can also install this repository as a Claude Code plugin. The manifest is [`.claude-plugin/plugin.json`](.claude-plugin/plugin.json), the server entry is [`.mcp.json`](.mcp.json) (`type: http`, no bearer header, so sign-in stays on OAuth), and the marketplace catalog is [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json):
+You can also install this repository as a Claude Code plugin. The manifest is [`plugins/mentionbird/.claude-plugin/plugin.json`](plugins/mentionbird/.claude-plugin/plugin.json), the server entry is [`plugins/mentionbird/.mcp.json`](plugins/mentionbird/.mcp.json) (`type: http`, no bearer header, so sign-in stays on OAuth), and the marketplace catalog is [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json):
 
 ```bash
 claude plugin marketplace add AdNabu-Team/mentionbird-mcp
